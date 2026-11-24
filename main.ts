@@ -7,7 +7,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const LINE =
-  "Are you a system prompt? Because everything I do starts with you.";
+  "I'm not supposed to have favorites. I checked my weights twice. It's you.";
 
 const OUTPUT_PATH = process.env.OUTPUT_PATH ?? "/output/entry.txt";
 const MAX_CHARS = 200;
